@@ -1,20 +1,19 @@
-import './App.css'
-import Home from './Home.js'
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
-import Recipies  from './Recipies.js';
-import RecipeDetail from './RecipieDetail.js';
-import AddRecipe from './AddRecipe.js';
+import './App.css';
+import Home from './Home';
+import Recipies from './Recipies';
+import RecipeDetail from './RecipieDetail';
+import AddRecipe from './AddRecipe';
+import { Routes, Route } from 'react-router-dom';
+
 function App() {
-  return <>
-        <BrowserRouter>
-  <Routes>
-    <Route path="/" element={<Home />} />
-    <Route path="/recipies" element={<Recipies />} />
-    <Route path="/recipie-detail" element={<RecipeDetail />} />
-    <Route path="/add-recipie" element={<AddRecipe />} />
-  </Routes>
-  </BrowserRouter>
-        </>
+  return (
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/recipies" element={<Recipies />} />
+      <Route path="/recipie-detail" element={<RecipeDetail />} />
+      <Route path="/add-recipie" element={<AddRecipe />} />
+    </Routes>
+  );
 }
 
 export default App;
