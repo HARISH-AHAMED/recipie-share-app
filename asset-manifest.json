@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/recipie-share-app/static/css/main.efaa0212.css",
+    "main.js": "/recipie-share-app/static/js/main.8067a56c.js",
+    "static/media/card-img-15.jpg": "/recipie-share-app/static/media/card-img-15.3d2b0d458e609881cacd.jpg",
+    "static/media/card-img-13.jpg": "/recipie-share-app/static/media/card-img-13.7717ef72642fedb96c16.jpg",
+    "static/media/banner.jpg": "/recipie-share-app/static/media/banner.5a48f46a4e7d8bf39ae6.jpg",
+    "static/media/card-img-14.jpg": "/recipie-share-app/static/media/card-img-14.7f80694d30552f62c6e7.jpg",
+    "static/media/card-img-16.jpg": "/recipie-share-app/static/media/card-img-16.913b1b932281539dbee0.jpg",
+    "static/media/card-img-12.jpg": "/recipie-share-app/static/media/card-img-12.c41fe56f9afad1ba17b9.jpg",
+    "static/media/card-img-9.jpg": "/recipie-share-app/static/media/card-img-9.63ee462191288eecbd6e.jpg",
+    "static/media/card-img-10.jpg": "/recipie-share-app/static/media/card-img-10.3b159477d17410eeea30.jpg",
+    "static/media/card-img-11.jpg": "/recipie-share-app/static/media/card-img-11.6610fa979fe676160313.jpg",
+    "static/media/slide-img3.jpg": "/recipie-share-app/static/media/slide-img3.2657bc89e784c4235fd5.jpg",
+    "static/media/slide-img5.jpg": "/recipie-share-app/static/media/slide-img5.5667943314f15f577b4c.jpg",
+    "static/media/slide-img4.jpg": "/recipie-share-app/static/media/slide-img4.a305b47bbc10368acf0b.jpg",
+    "static/media/slide-img2.png": "/recipie-share-app/static/media/slide-img2.f56c296971631daf0314.png",
+    "static/media/slide-img6.jpg": "/recipie-share-app/static/media/slide-img6.637d3aca1a991df34a4a.jpg",
+    "static/media/paneer-masala-card.jpg": "/recipie-share-app/static/media/paneer-masala-card.0b3a431d74569ef406d0.jpg",
+    "static/media/card-img-3.jpg": "/recipie-share-app/static/media/card-img-3.72844cb031936507adc6.jpg",
+    "static/media/card-img-4.jpg": "/recipie-share-app/static/media/card-img-4.1a4f38752f1ed8fae47b.jpg",
+    "static/media/card-img-7.jpg": "/recipie-share-app/static/media/card-img-7.df3d120b55113183d7e5.jpg",
+    "static/media/card-img-2.jpg": "/recipie-share-app/static/media/card-img-2.3d74545506501a822611.jpg",
+    "static/media/card-img-8.jpg": "/recipie-share-app/static/media/card-img-8.9c5a4792c7f06856c655.jpg",
+    "static/media/card-img-6.jpg": "/recipie-share-app/static/media/card-img-6.19f6e2254c326db43438.jpg",
+    "static/media/card-img-5.jpg": "/recipie-share-app/static/media/card-img-5.f02ea8185d5bf1af69ed.jpg",
+    "index.html": "/recipie-share-app/index.html",
+    "main.efaa0212.css.map": "/recipie-share-app/static/css/main.efaa0212.css.map",
+    "main.8067a56c.js.map": "/recipie-share-app/static/js/main.8067a56c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.efaa0212.css",
+    "static/js/main.8067a56c.js"
+  ]
+}
