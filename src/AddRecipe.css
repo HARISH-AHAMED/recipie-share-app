@@ -1,0 +1,99 @@
+/* Container for the whole add recipe section */
+.add-recipe-wrapper {
+  max-width: 900px;
+  margin: auto;
+  border-radius: 10px;
+  overflow: hidden;
+  
+}
+
+/* Header with background image */
+.recipe-header {
+  position: relative;
+  background-image: url('./images/banner.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 60px 20px;
+  text-align: center;
+  color: white;
+    border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  overflow: hidden;
+}
+
+.recipe-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4); /* Adjust opacity as needed */
+  z-index: 1;
+}
+
+.recipe-header h2 {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+}
+
+/* Styling for the form */
+.recipe-form {
+  background-color: white;
+  padding: 30px;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Form elements */
+.recipe-form input,
+.recipe-form select,
+.recipe-form textarea {
+  border: 1.5px solid #ddd;
+  transition: border-color 0.3s ease;
+  border-color: #E65100;
+}
+
+.recipe-form input:focus,
+.recipe-form select:focus,
+.recipe-form textarea:focus {
+  border-color: #e65100;
+  box-shadow: 0 0 0 0.2rem rgba(230, 81, 0, 0.25);
+}
+
+/* Button styling */
+.recipe-form .btn {
+  background-color: #E65100;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.recipe-form .btn:hover {
+  background-color: #BF360C;
+  color: #fff;
+}
+
+/* Optional: General h2 styling (used outside bg header too if needed) */
+h2 {
+  color: #E65100;
+}
+
+label{
+  text-decoration: underline #E65100;
+}
+
+input[type="file"]::file-selector-button {
+  background-color: #E65100;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="file"]::file-selector-button:hover {
+  background-color: #BF360C;
+}

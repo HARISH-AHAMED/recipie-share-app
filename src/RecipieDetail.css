@@ -1,0 +1,13 @@
+.recipe-img {
+  max-height: 400px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.recipe-detail-page h1 {
+  color: #2C6B3F; /* Elegant green */
+}
+
+.list-group-item {
+  font-size: 1rem;
+}
